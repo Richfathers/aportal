@@ -1,0 +1,117 @@
+<!--Include header-->
+<%-include('include/_header')%>
+<!--Include header-->
+
+<link rel="stylesheet" href="css/createDevice.css">
+<main class="main">
+    <h3>create Device </h3>
+    <!--Form handling-->
+    <form method="post"  action="/device/create-device" id="add-device" >
+        <div class="new-device">
+            <div class="form-group">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="deviceID" name="deviceID"  placeholder="l001" autocomplete="off">
+                    <label for="deviceID">ID</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="deviceID" name="type"  placeholder="l001" autocomplete="off">
+                    <label for="type">type</label>
+                </div>
+
+                
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="deviceName" name="deviceName" placeholder="l001" autocomplete="off">
+                    <label for="deviceName">name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="deviceSN" name="deviceSN" placeholder="l001" autocomplete="off">
+                    <label for="deviceSN">serial number</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="price" name="price"  placeholder="l001" autocomplete="off">
+                    <label for="price">price</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="owner" name="owner"  placeholder="l001" autocomplete="off">
+                    <label for="owner">owner</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="ownersOffice" name="ownersOffice"  placeholder="l001" autocomplete="off">
+                    <label for="ownersOffice">ownersOffice</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="ownersDepartment" name="ownersDepartment"  placeholder="l001" autocomplete="off">
+                    <label for="ownersDepartment">ownersDepartment</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="ownersLocation" name="ownersLocation"  placeholder="l001" autocomplete="off">
+                    <label for="ownersLocation">ownersLocation</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="ownersPost" name="ownersPost"  placeholder="l001" autocomplete="off">
+                    <label for="ownersPost">ownersPost</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="corporativePhone" name="corporativePhone"  placeholder="l001" autocomplete="off">
+                    <label for="corporativePhone">corporativePhone</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="personalPhone" name="personalPhone"  placeholder="l001" autocomplete="off">
+                    <label for="personalPhone">personalPhone</label>
+                </div>
+
+            
+                <div class="textarea1">
+                    <textarea rows="4" cols="50" class="form-control" placeholder="write characteristics" id="deviceCharacteristics" name="deviceCharacteristics"  ></textarea>
+                    <!-- <label for="deviceCharacteristics">device characteristics</label> -->
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="vendor" name="vendor"  placeholder="l001" autocomplete="off">
+                    <label for="vendor">vendor</label>
+                </div>
+
+                <div class="textarea2">
+                    <textarea rows="4" cols="50" class="form-control" placeholder="write comments , notes and etc." id="history" name="history"   ></textarea>
+                    <!-- <label for="history">notes</label> -->
+                </div>
+
+               
+
+               
+                <!-- <input type="file" name="photos"/> -->
+
+                <div class="form-group">
+                  <button type="submit" class="btn btn-outline-primary">save device</button>
+                  
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </form>
+
+
+
+
+
+
+    <!--Form handling-->
+
+</main>
+
+<!--Include footer-->
+<%-include('include/_footer')%>
+<!--Include footer-->
